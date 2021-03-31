@@ -5,6 +5,7 @@ public class HelloWorld {
         System.out.println("Hello World");
         HelloWorld hw = new HelloWorld();
         hw.add(2, 3);
+        System.out.println("Successful Addition");
     }
     public int add(int a, int b){
         int c = a + b;
